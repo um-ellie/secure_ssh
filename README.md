@@ -40,14 +40,14 @@ AllowUsers [your_user]  # If you choose to add one
 
 ### 🛠 How to Run
 
-1. Save the script to a file, for example: `ssh-harden.sh`
+1. Save the script to a file.
 2. Make it executable:
    ```bash
-   chmod +x ssh-harden.sh
+   chmod +x secure-ssh.sh
    ```
 3. Run it with:
    ```bash
-   ./ssh-harden.sh
+   ./secure-ssh.sh
    ```
 
 You will be prompted to optionally specify a username for SSH access (added to `AllowUsers`).
